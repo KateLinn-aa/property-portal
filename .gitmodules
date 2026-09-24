@@ -1,0 +1,9 @@
+[submodule "property-portal-api"]
+	path = property-portal-api
+	url = [property-portal-api] creating public repo KateLinn-aa/property-portal-api...\nhttps://github.com/KateLinn-aa/property-portal-api\nbranch 'main' set up to track 'origin/main'.\nhttps://github.com/KateLinn-aa/property-portal-api.git
+[submodule "property-portal-app"]
+	path = property-portal-app
+	url = [property-portal-app] creating public repo KateLinn-aa/property-portal-app...\nhttps://github.com/KateLinn-aa/property-portal-app\nbranch 'main' set up to track 'origin/main'.\nhttps://github.com/KateLinn-aa/property-portal-app.git
+[submodule "property-portal-mobile"]
+	path = property-portal-mobile
+	url = [property-portal-mobile] creating public repo KateLinn-aa/property-portal-mobile...\nhttps://github.com/KateLinn-aa/property-portal-mobile\nbranch 'main' set up to track 'origin/main'.\nhttps://github.com/KateLinn-aa/property-portal-mobile.git
