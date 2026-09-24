@@ -44,13 +44,13 @@ publish_repo() {
   pushd "$path" >/dev/null
 
   if git remote get-url origin >/dev/null 2>&1; then
-    echo "[$name] origin already set, pushing..."
+    echo "[$name] origin already set, pushing..." >&2
   else
-    echo "[$name] creating public repo $GH_USER/$name..."
-    gh repo create "$name" --public --source=. --remote=origin
+    echo "[$name] creating public repo $GH_USER/$name..." >&2
+    gh repo create "$name" --public --source=. --remote=origin >&2
   fi
 
-  git push -u origin main
+  git push -u origin main >&2
   url="https://github.com/$GH_USER/$name"
   popd >/dev/null
 
